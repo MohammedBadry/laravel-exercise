@@ -28,7 +28,8 @@ To get a local copy up and running follow these simple example steps.
 2. Open terminal in the project root directory and run these commands
    ```js
    php artisan migrate
-   php artisan key generate
+   php artisan key:generate
+   php artisan serve
    ```
 4. Open the project on your browser
    ```js
