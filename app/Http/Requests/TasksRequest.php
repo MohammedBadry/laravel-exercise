@@ -26,16 +26,16 @@ class TasksRequest extends FormRequest {
 	protected function onCreate() {
 		return [
 			'name'=>'required|max:100',
-			'start_date'=>'required|date|date_format:Y-m-d|after_or_equal:now|before:end_date',
-			'end_date'=>'required|date|date_format:Y-m-d|after_or_equal:now|after:start_date',
+			'start_date'=>'required|date|date_format:Y-m-d|before_or_equal:end_date',
+			'end_date'=>'required|date|date_format:Y-m-d|after_or_equal:after:start_date',
 		];
 	}
 
 	protected function onUpdate() {
 		return [
 			'name'=>'required|max:100',
-			'start_date'=>'required|date|date_format:Y-m-d|after_or_equal:now|before:end_date',
-			'end_date'=>'required|date|date_format:Y-m-d|after_or_equal:now|after:start_date',
+			'start_date'=>'required|date|date_format:Y-m-d|before_or_equal:end_date',
+			'end_date'=>'required|date|date_format:Y-m-d|after_or_equal:after:start_date',
 		];
 	}
 
